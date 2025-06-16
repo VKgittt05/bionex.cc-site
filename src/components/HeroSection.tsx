@@ -24,7 +24,7 @@ const HeroSection = () => {
             Faça parte do movimento que está transformando nossa cidade em um lugar mais sustentável, 
             uma composteira de cada vez. 🍃
           </p>
-          <Link to="/auth">
+          <Link to="/cadastro">
             <button className="bg-lime-400 text-green-900 px-8 py-4 rounded-lg text-xl font-bold hover:bg-lime-300 transition-all transform hover:scale-105 animate-fade-in shadow-lg">
               Cadastre-se para receber seu baldinho!
             </button>

@@ -30,13 +30,13 @@ const Header = () => {
 
         <div className="hidden md:flex space-x-4">
           <Link 
-            to="/auth"
+            to="/login"
             className="px-4 py-2 text-green-800 border border-green-800 rounded-lg hover:bg-green-50 transition-colors"
           >
             Login
           </Link>
           <Link 
-            to="/auth"
+            to="/cadastro"
             className="px-4 py-2 bg-green-800 text-white rounded-lg hover:bg-green-700 transition-colors"
           >
             Cadastre-se
@@ -63,13 +63,13 @@ const Header = () => {
             <a href="#contato" className="block py-2 text-green-800">Contato</a>
             <div className="space-y-2 pt-2">
               <Link 
-                to="/auth"
+                to="/login"
                 className="block w-full px-4 py-2 text-green-800 border border-green-800 rounded-lg text-center"
               >
                 Login
               </Link>
               <Link 
-                to="/auth"
+                to="/cadastro"
                 className="block w-full px-4 py-2 bg-green-800 text-white rounded-lg text-center"
               >
                 Cadastre-se

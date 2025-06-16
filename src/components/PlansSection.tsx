@@ -9,7 +9,8 @@ const PlansSection = () => {
       name: "Plano Horta",
       description: "Para quem quer plantar em casa",
       price: "R$ 29,90/mês",
-      features: ["Coleta quinzenal", "Balde de 10L", "1kg de adubo/mês"]
+      features: ["Coleta quinzenal", "Balde de 10L", "1kg de adubo/mês"],
+      route: "/planos/horta"
     },
     {
       icon: "🪴",
@@ -17,28 +18,32 @@ const PlansSection = () => {
       description: "Coleta semanal para até 4 pessoas",
       price: "R$ 49,90/mês",
       features: ["Coleta semanal", "Balde de 20L", "2kg de adubo/mês"],
-      popular: true
+      popular: true,
+      route: "/planos/familia"
     },
     {
       icon: "🌿",
       name: "Plano Bairro",
       description: "Ideal para condomínios ou vizinhanças",
       price: "R$ 199,90/mês",
-      features: ["Coleta 2x semana", "Múltiplos baldes", "10kg de adubo/mês"]
+      features: ["Coleta 2x semana", "Múltiplos baldes", "10kg de adubo/mês"],
+      route: "/planos"
     },
     {
       icon: "♻️",
       name: "Essencial",
       description: "Coleta quinzenal + 1kg de adubo/mês",
       price: "R$ 19,90/mês",
-      features: ["Coleta quinzenal", "Balde de 5L", "1kg de adubo/mês"]
+      features: ["Coleta quinzenal", "Balde de 5L", "1kg de adubo/mês"],
+      route: "/planos/essencial"
     },
     {
       icon: "🌾",
       name: "Produtor",
       description: "Grandes volumes para sítios ou hortas",
       price: "R$ 299,90/mês",
-      features: ["Coleta diária", "Containers grandes", "20kg de adubo/mês"]
+      features: ["Coleta diária", "Containers grandes", "20kg de adubo/mês"],
+      route: "/planos"
     }
   ];
 
@@ -87,7 +92,7 @@ const PlansSection = () => {
                   </li>
                 ))}
               </ul>
-              <Link to="/planos">
+              <Link to={plan.route}>
                 <button className={`w-full py-3 rounded-lg font-bold transition-colors ${
                   plan.popular 
                     ? 'bg-lime-400 text-green-900 hover:bg-lime-300' 
