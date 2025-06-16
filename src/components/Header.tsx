@@ -8,13 +8,12 @@ const Header = () => {
   return (
     <header className="bg-white shadow-sm sticky top-0 z-50">
       <nav className="container mx-auto px-4 py-4 flex justify-between items-center">
-        <div className="flex items-center space-x-3">
+        <div className="flex items-center">
           <img 
-            src="/lovable-uploads/e78ea99c-8f48-4046-bd19-cec40e59a25c.png" 
+            src="/lovable-uploads/b2c018cc-3a81-43a7-bfb4-44ba92ac7ed1.png" 
             alt="Bionex Logo" 
             className="h-12 w-auto"
           />
-          <h1 className="text-2xl font-bold text-green-800">Bionex</h1>
         </div>
         
         {/* Desktop Menu */}

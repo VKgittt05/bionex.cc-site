@@ -19,7 +19,7 @@ const HeroSection = () => {
             Nós coletamos seu lixo orgânico e o transformamos em adubo 100% natural.
           </p>
           <button className="bg-lime-400 text-green-900 px-8 py-4 rounded-lg text-xl font-bold hover:bg-lime-300 transition-all transform hover:scale-105 animate-fade-in shadow-lg">
-            👉 Cadastre-se para receber seu baldinho!
+            Cadastre-se para receber seu baldinho!
           </button>
         </div>
       </div>

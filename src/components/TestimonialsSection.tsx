@@ -4,22 +4,22 @@ import React from 'react';
 const TestimonialsSection = () => {
   const testimonials = [
     {
-      name: "Ana Silva",
-      location: "São Paulo, SP",
-      text: "💬 Adoro a ideia! Agora meu lixo vira vida. Minha horta nunca esteve tão bonita!",
-      avatar: "👩‍🦱"
+      name: "Carlos Mendes",
+      location: "Maringá, PR",
+      text: "Adoro a ideia! Agora meu lixo vira vida. Minha horta nunca esteve tão bonita!",
+      photo: "/lovable-uploads/c9e8d291-48c9-4c90-bb32-b01a4d31f128.png"
     },
     {
-      name: "Lucas Santos",
-      location: "Rio de Janeiro, RJ", 
-      text: "💬 Melhorou minha horta e reduziu meu lixo. Serviço excelente e pontual!",
-      avatar: "👨‍🦲"
+      name: "Rafael Silva",
+      location: "Maringá, PR", 
+      text: "Melhorou minha horta e reduziu meu lixo. Serviço excelente e pontual!",
+      photo: "/lovable-uploads/89a2725f-7264-4b83-8631-6663855f5a94.png"
     },
     {
-      name: "Maria Oliveira",
-      location: "Belo Horizonte, MG",
-      text: "💬 Transformou nossa visão sobre sustentabilidade. Recomendo para todos!",
-      avatar: "👩‍🦰"
+      name: "João Santos",
+      location: "Maringá, PR",
+      text: "Transformou nossa visão sobre sustentabilidade. Recomendo para todos!",
+      photo: "/lovable-uploads/3648630d-33f5-4480-a223-836346023a7c.png"
     }
   ];
 
@@ -39,7 +39,13 @@ const TestimonialsSection = () => {
           {testimonials.map((testimonial, index) => (
             <div key={index} className="bg-cream-50 rounded-xl p-8 shadow-lg hover:shadow-xl transition-all">
               <div className="text-center mb-6">
-                <div className="text-6xl mb-4">{testimonial.avatar}</div>
+                <div className="w-20 h-20 mx-auto mb-4 rounded-full overflow-hidden">
+                  <img 
+                    src={testimonial.photo} 
+                    alt={testimonial.name}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
                 <h3 className="text-xl font-bold text-green-800">{testimonial.name}</h3>
                 <p className="text-green-600">{testimonial.location}</p>
               </div>
@@ -57,7 +63,7 @@ const TestimonialsSection = () => {
 
         <div className="text-center mt-12">
           <button className="bg-green-800 text-white px-8 py-4 rounded-lg text-lg font-bold hover:bg-green-700 transition-colors">
-            🗣️ Quero deixar meu depoimento
+            Quero deixar meu depoimento
           </button>
         </div>
       </div>

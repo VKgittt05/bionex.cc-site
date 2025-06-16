@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const Footer = () => {
@@ -9,11 +8,10 @@ const Footer = () => {
           <div>
             <div className="flex items-center space-x-3 mb-4">
               <img 
-                src="/lovable-uploads/e78ea99c-8f48-4046-bd19-cec40e59a25c.png" 
+                src="/lovable-uploads/b2c018cc-3a81-43a7-bfb4-44ba92ac7ed1.png" 
                 alt="Bionex Logo" 
                 className="h-8 w-auto filter brightness-0 invert"
               />
-              <h3 className="text-2xl font-bold">Bionex</h3>
             </div>
             <p className="text-cream-100 mb-4">
               Transformando resíduos em vida através da compostagem sustentável.
