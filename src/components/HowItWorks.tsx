@@ -37,7 +37,7 @@ const HowItWorks = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
           {steps.map((step, index) => (
             <div 
               key={index}
@@ -48,6 +48,33 @@ const HowItWorks = () => {
               <p className="text-green-700">{step.description}</p>
             </div>
           ))}
+        </div>
+
+        {/* Seção com imagem do adubo produzido */}
+        <div className="bg-white rounded-xl p-8 shadow-lg">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+            <div>
+              <h3 className="text-2xl font-bold text-green-800 mb-4">
+                Adubo de Alta Qualidade
+              </h3>
+              <p className="text-green-700 mb-4">
+                Nosso processo de compostagem produz adubo rico em nutrientes, 
+                perfeito para suas plantas e hortas. Veja na imagem o resultado 
+                final do nosso trabalho sustentável.
+              </p>
+              <p className="text-green-700">
+                Cada carrinhos de mão representa o resultado da transformação 
+                dos seus resíduos orgânicos em vida para o solo.
+              </p>
+            </div>
+            <div className="text-center">
+              <img 
+                src="/lovable-uploads/e610dcc5-afc8-4271-be8b-840d266ca3d6.png" 
+                alt="Adubo orgânico produzido pela Bionex" 
+                className="rounded-lg shadow-md w-full h-auto"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </section>

@@ -35,7 +35,7 @@ const StoreSection = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto mb-16">
           {products.map((product, index) => (
             <div key={index} className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-all">
               <div className="text-6xl text-center mb-4">{product.image}</div>
@@ -52,6 +52,33 @@ const StoreSection = () => {
               </div>
             </div>
           ))}
+        </div>
+
+        {/* Seção com imagem do caminhão de coleta */}
+        <div className="bg-green-800 rounded-xl p-8 shadow-lg text-white">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+            <div>
+              <h3 className="text-2xl font-bold mb-4">
+                🚛 Nossa Frota de Coleta
+              </h3>
+              <p className="mb-4">
+                Contamos com veículos especializados para a coleta de resíduos orgânicos. 
+                Nossa frota está equipada com tambores especiais da Bionex para garantir 
+                o transporte seguro e eficiente dos materiais.
+              </p>
+              <p>
+                Cada coleta é realizada de forma profissional, respeitando o meio ambiente 
+                e garantindo a qualidade do processo de compostagem.
+              </p>
+            </div>
+            <div className="text-center">
+              <img 
+                src="/lovable-uploads/158ce044-ae65-4e6e-b170-bdb6f343e827.png" 
+                alt="Caminhão de coleta Bionex" 
+                className="rounded-lg shadow-md w-full h-auto"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </section>

@@ -118,7 +118,7 @@ const ContactSection = () => {
                   <span className="text-2xl">📱</span>
                   <div>
                     <p className="font-medium text-green-800">WhatsApp</p>
-                    <p className="text-green-700">(11) 99999-9999</p>
+                    <p className="text-green-700">(44) 98822-7424</p>
                   </div>
                 </div>
                 
@@ -126,7 +126,7 @@ const ContactSection = () => {
                   <span className="text-2xl">📧</span>
                   <div>
                     <p className="font-medium text-green-800">E-mail</p>
-                    <p className="text-green-700">contato@ecobalde.com.br</p>
+                    <p className="text-green-700">bionex.cc@gmail.com</p>
                   </div>
                 </div>
                 
@@ -134,7 +134,7 @@ const ContactSection = () => {
                   <span className="text-2xl">🌿</span>
                   <div>
                     <p className="font-medium text-green-800">Endereço</p>
-                    <p className="text-green-700">Terreno EcoBalde<br />Estrada Verde, nº 420</p>
+                    <p className="text-green-700">Estrada. 150<br />Mandaguaçu - PR, 87160-000, Brasil</p>
                   </div>
                 </div>
               </div>
