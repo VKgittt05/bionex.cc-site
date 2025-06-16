@@ -1,6 +1,7 @@
 
 import React, { useState } from 'react';
 import { Menu, X } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -9,11 +10,13 @@ const Header = () => {
     <header className="bg-white shadow-sm sticky top-0 z-50">
       <nav className="container mx-auto px-4 py-4 flex justify-between items-center">
         <div className="flex items-center">
-          <img 
-            src="/lovable-uploads/b2c018cc-3a81-43a7-bfb4-44ba92ac7ed1.png" 
-            alt="Bionex Logo" 
-            className="h-12 w-auto"
-          />
+          <Link to="/">
+            <img 
+              src="/lovable-uploads/b2c018cc-3a81-43a7-bfb4-44ba92ac7ed1.png" 
+              alt="Bionex Logo" 
+              className="h-12 w-auto"
+            />
+          </Link>
         </div>
         
         {/* Desktop Menu */}
@@ -26,12 +29,18 @@ const Header = () => {
         </div>
 
         <div className="hidden md:flex space-x-4">
-          <button className="px-4 py-2 text-green-800 border border-green-800 rounded-lg hover:bg-green-50 transition-colors">
+          <Link 
+            to="/auth"
+            className="px-4 py-2 text-green-800 border border-green-800 rounded-lg hover:bg-green-50 transition-colors"
+          >
             Login
-          </button>
-          <button className="px-4 py-2 bg-green-800 text-white rounded-lg hover:bg-green-700 transition-colors">
+          </Link>
+          <Link 
+            to="/auth"
+            className="px-4 py-2 bg-green-800 text-white rounded-lg hover:bg-green-700 transition-colors"
+          >
             Cadastre-se
-          </button>
+          </Link>
         </div>
 
         {/* Mobile Menu Button */}
@@ -53,12 +62,18 @@ const Header = () => {
             <a href="#loja" className="block py-2 text-green-800">Loja</a>
             <a href="#contato" className="block py-2 text-green-800">Contato</a>
             <div className="space-y-2 pt-2">
-              <button className="w-full px-4 py-2 text-green-800 border border-green-800 rounded-lg">
+              <Link 
+                to="/auth"
+                className="block w-full px-4 py-2 text-green-800 border border-green-800 rounded-lg text-center"
+              >
                 Login
-              </button>
-              <button className="w-full px-4 py-2 bg-green-800 text-white rounded-lg">
+              </Link>
+              <Link 
+                to="/auth"
+                className="block w-full px-4 py-2 bg-green-800 text-white rounded-lg text-center"
+              >
                 Cadastre-se
-              </button>
+              </Link>
             </div>
           </div>
         </div>

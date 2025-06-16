@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const PlansSection = () => {
   const plans = [
@@ -49,7 +50,7 @@ const PlansSection = () => {
             Nossos Planos
           </h2>
           <p className="text-xl text-green-700 max-w-2xl mx-auto">
-            Escolha o plano ideal para sua necessidade
+            Escolha o plano ideal para sua necessidade e comece a transformar resíduos em vida hoje mesmo
           </p>
         </div>
 
@@ -86,15 +87,25 @@ const PlansSection = () => {
                   </li>
                 ))}
               </ul>
-              <button className={`w-full py-3 rounded-lg font-bold transition-colors ${
-                plan.popular 
-                  ? 'bg-lime-400 text-green-900 hover:bg-lime-300' 
-                  : 'bg-green-800 text-white hover:bg-green-700'
-              }`}>
-                Escolher Plano
-              </button>
+              <Link to="/planos">
+                <button className={`w-full py-3 rounded-lg font-bold transition-colors ${
+                  plan.popular 
+                    ? 'bg-lime-400 text-green-900 hover:bg-lime-300' 
+                    : 'bg-green-800 text-white hover:bg-green-700'
+                }`}>
+                  Escolher Plano
+                </button>
+              </Link>
             </div>
           ))}
+        </div>
+
+        <div className="text-center mt-12">
+          <Link to="/planos">
+            <button className="bg-lime-400 text-green-900 px-8 py-4 rounded-lg text-lg font-bold hover:bg-lime-300 transition-all transform hover:scale-105">
+              Ver Todos os Planos
+            </button>
+          </Link>
         </div>
       </div>
     </section>
