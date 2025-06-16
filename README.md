@@ -1,73 +1,68 @@
-# Welcome to your Lovable project
+# 🌱 Bionex - Compostagem Sustentável
 
-## Project info
+**Bionex** é um projeto de impacto ambiental e social que promove a compostagem doméstica e comunitária por meio de um serviço prático, acessível e educativo. Criado com o objetivo de transformar resíduos orgânicos em adubo de alta qualidade, o Bionex conecta sustentabilidade, tecnologia e comunidades.
 
-**URL**: https://lovable.dev/projects/47f235b5-a321-4c6f-badd-9c0ce2d95eb4
+---
 
-## How can I edit this code?
+## 🚀 Sobre o Projeto
 
-There are several ways of editing your application.
+O Bionex oferece planos acessíveis para coleta de resíduos orgânicos, transformando-os em adubo 100% natural, ideal para hortas urbanas, jardins e plantações domésticas. O site permite que o usuário:
 
-**Use Lovable**
+- Crie uma conta ou entre com login.
+- Escolha entre diferentes planos de compostagem (Essencial, Horta e Família).
+- Acesse uma página específica com os detalhes do plano escolhido.
+- Visualize como funciona o processo de compostagem e o impacto gerado.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/47f235b5-a321-4c6f-badd-9c0ce2d95eb4) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 💡 Funcionalidades
 
-**Use your preferred IDE**
+- ✅ Cadastro e login de usuários
+- ✅ Página profissional para cada plano de assinatura
+- ✅ Conteúdo informativo sobre o processo de compostagem
+- ✅ Interface amigável e responsiva
+- ✅ Imagens reais do adubo produzido e do serviço
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🛠️ Tecnologias Utilizadas
 
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
+- React + TypeScript
 - Vite
-- TypeScript
-- React
-- shadcn-ui
 - Tailwind CSS
+- Git & GitHub
+- Lovable.dev (no-code/low-code builder)
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/47f235b5-a321-4c6f-badd-9c0ce2d95eb4) and click on Share -> Publish.
+## 👥 Equipe Bionex
 
-## Can I connect a custom domain to my Lovable project?
+Este projeto foi idealizado e desenvolvido por:
 
-Yes, you can!
+- **Victor Kauã Pereira dos Santos**
+- **Vitor Hugo**
+- **Bruno Herold**
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## 📷 Imagens do Projeto
+
+<p align="center">
+  <img src="caminho/para/imagem1.png" width="400" alt="Compostagem">
+  <img src="caminho/para/imagem2.png" width="400" alt="Planos de Assinatura">
+</p>
+
+---
+
+## 📞 Contato
+
+Para dúvidas, sugestões ou parcerias:
+
+📧 Email: contato@bionex.com  
+🌍 Site: [bionex.eco](https://bionex.eco) *(ou endereço real do projeto)*
+
+---
+
+## 🌿 Licença
+
+Este projeto é de uso educacional e sem fins lucrativos. Todos os direitos reservados ao grupo **Bionex.cc**.
