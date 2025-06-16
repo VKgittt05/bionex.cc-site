@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,55 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Paleta EcoBalde
+				'green': {
+					50: '#f0fdf4',
+					100: '#dcfce7',
+					200: '#bbf7d0',
+					300: '#86efac',
+					400: '#4ade80',
+					500: '#22c55e',
+					600: '#16a34a',
+					700: '#15803d',
+					800: '#166534',
+					900: '#14532d'
+				},
+				'lime': {
+					50: '#f7fee7',
+					100: '#ecfccb',
+					200: '#d9f99d',
+					300: '#bef264',
+					400: '#a3e635',
+					500: '#84cc16',
+					600: '#65a30d',
+					700: '#4d7c0f',
+					800: '#3f6212',
+					900: '#365314'
+				},
+				'brown': {
+					50: '#fdf8f6',
+					100: '#f2e8e5',
+					200: '#eaddd7',
+					300: '#e0cec7',
+					400: '#d2bab0',
+					500: '#bfa094',
+					600: '#a18072',
+					700: '#977669',
+					800: '#795548',
+					900: '#5d4037'
+				},
+				'cream': {
+					50: '#fffde7',
+					100: '#fffbeb',
+					200: '#fef3c7',
+					300: '#fde68a',
+					400: '#fcd34d',
+					500: '#fbbf24',
+					600: '#f59e0b',
+					700: '#d97706',
+					800: '#92400e',
+					900: '#78350f'
 				}
 			},
 			borderRadius: {
@@ -84,11 +134,22 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'fade-in': {
+					'0%': {
+						opacity: '0',
+						transform: 'translateY(10px)'
+					},
+					'100%': {
+						opacity: '1',
+						transform: 'translateY(0)'
+					}
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'fade-in': 'fade-in 0.6s ease-out'
 			}
 		}
 	},
